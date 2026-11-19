@@ -63,4 +63,9 @@ public class ObstacleSpawner : MonoBehaviour
         // تجهيز المسافة للعائق التالي
         nextSpawnZ += distanceBetweenObstacles;
     }
+
+    public void SetObstacleDistance(float distance)
+    {
+        distanceBetweenObstacles = distance;
+    }
 }
